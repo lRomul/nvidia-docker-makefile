@@ -8,4 +8,4 @@ CONTNAME="--name=${NAME}"
 NET="--net=host"
 IPC="--ipc=host"
 
-VOLUMES="-v $(pwd)/..:/workdir"
+VOLUMES="-v $(pwd)/../share_folder:/workdir/share_folder"
