@@ -1,7 +1,4 @@
-FROM floydhub/pytorch:latest-gpu-py3
-
-RUN pip3 install --upgrade http://download.pytorch.org/whl/cu80/torch-0.1.12.post2-cp35-cp35m-linux_x86_64.whl  
-RUN pip3 install --upgrade git+https://github.com/pytorch/vision.git
+FROM floydhub/pytorch:0.4.0-gpu.cuda9cudnn7-py3.31
 
 RUN mkdir -p /workdir/tutorials/ && cd /workdir/tutorials/ && \
 	git clone https://github.com/jcjohnson/pytorch-examples && \
