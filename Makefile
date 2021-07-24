@@ -1,4 +1,4 @@
-NAME?=dokai-example
+NAME?=nvidia-docker-makefile
 COMMAND?=bash
 OPTIONS?=
 
