@@ -4,7 +4,7 @@ Train EfficientNet B0 on CIFAR with [argus](https://github.com/lRomul/argus) and
 
 ## Requirements 
 
-*  Nvidia drivers >= 465, CUDA >= 11.3
+*  Nvidia drivers >= 470, CUDA >= 11.4
 *  [Docker](https://www.docker.com/), [nvidia-docker](https://github.com/NVIDIA/nvidia-docker) 
 
 The provided Dockerfile is supplied to build an image with CUDA support and cuDNN.
